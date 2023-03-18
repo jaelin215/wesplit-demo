@@ -49,6 +49,3 @@ txt_path = 'output/enhanced.txt'
 with open(txt_path, 'w') as f:
     f.write(txt)
     f.close()
-
-# # Visualize in flowchart
-# code2flow.code2flow(['run.py', 'functions.py'], 'code2flow/out.png')
