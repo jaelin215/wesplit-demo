@@ -1,6 +1,6 @@
 ----
-## Faded, Torn, Rotated Receipt OCR with Image Preprocessing (WeSplit OCR Web App)
-As part of KaggleX BIPOC Mentorship Program-Cohort2 (Dec 2022 - Mar 2023), I created an Receipt OCR web app called WeSplit. This app utilizes Tesseract OCR engine, an open source libarary, and custom preprocessing steps that I designed to improve the quality of the input image. The subset of the code is shared here to demonstrate the preprocessing steps and its positive impact to the OCR output.
+## Faded, Torn, Rotated Receipt OCR with Image Preprocessing
+As part of KaggleX BIPOC Mentorship Program-Cohort2 (Dec 2022 - Mar 2023), I created an Receipt OCR web app called **WeSplit**. This app utilizes Tesseract OCR engine, an open source libarary, and custom preprocessing steps that I designed to improve the quality of the input image. The subset of the code is shared here to demonstrate the preprocessing steps and its positive impact to the OCR output.
 
 - Author: Jaelin Lee
 - Date: Mar 18, 2023
