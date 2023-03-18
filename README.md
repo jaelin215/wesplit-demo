@@ -30,7 +30,14 @@ As part of KaggleX BIPOC Mentorship Program-Cohort2 (Dec 2022 - Mar 2023), I cre
 
 Enjoy! 
 
-<img width="1334" alt="Screenshot 2023-03-18 at 6 48 51 PM" src="https://user-images.githubusercontent.com/12604611/226144015-d6f04f30-f178-4e61-9d6c-b3cc02c303b8.png">
+Faded Receipt:
+<img width="1334" alt="Screenshot 2023-03-18 at 6 48 51 PM" src="https://user-images.githubusercontent.com/12604611/226144208-a6bc4a13-9943-484c-87c2-e3cc6c49eb8e.png">
+
+Rotated Receipt:
+<img width="1334" alt="Screenshot 2023-03-18 at 6 48 51 PM" src="https://user-images.githubusercontent.com/12604611/226144200-7e63d538-0c5c-4533-9ee5-ccdb376505d7.png">
+
+Torn Receipt:
+<img width="850" alt="Screenshot 2023-03-18 at 6 54 17 PM" src="https://user-images.githubusercontent.com/12604611/226144251-d15c7365-3f1b-446e-a62b-280346fc3872.png">
 
 ----
 Reference:
