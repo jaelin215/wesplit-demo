@@ -1,6 +1,6 @@
-Author: Jaelin Lee
-Date: Mar 18, 2023
-Description: How to install and run code2flow to create a flowchart of your Python file
+- Author: Jaelin Lee
+- Date: Mar 18, 2023
+- Description: How to install and run code2flow to create a flowchart of your Python file
 
 ---
 
