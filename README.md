@@ -25,8 +25,8 @@ As part of KaggleX BIPOC Mentorship Program-Cohort2 (Dec 2022 - Mar 2023), I cre
 - python3 run.py
 
 ## Output
-- Enhanced receipt (.JPG) is saved in `preprocessed/`folder
-- OCR text ourput (.txt) is saved in `output/` folder
+- Enhanced receipt (.JPG) is saved in `preprocessed`folder
+- OCR text ourput (.txt) is saved in `output` folder
 
 Enjoy! 
 
