@@ -50,5 +50,5 @@ with open(txt_path, 'w') as f:
     f.write(txt)
     f.close()
 
-# Save flowchart
+# Generate and save flowchart
 code2flow.code2flow(['run.py', 'functions.py'], 'flowchart/out.png')
