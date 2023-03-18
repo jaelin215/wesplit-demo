@@ -4,7 +4,6 @@ As part of KaggleX BIPOC Mentorship Program-Cohort2 (Dec 2022 - Mar 2023), I cre
 
 - Author: Jaelin Lee
 - Date: Mar 18, 2023
-- Description: 
 ----
 
 ## Installation
