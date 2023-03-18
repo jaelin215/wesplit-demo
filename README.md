@@ -30,6 +30,8 @@ As part of KaggleX BIPOC Mentorship Program-Cohort2 (Dec 2022 - Mar 2023), I cre
 
 Enjoy! 
 
+<img width="1334" alt="Screenshot 2023-03-18 at 6 48 51 PM" src="https://user-images.githubusercontent.com/12604611/226144015-d6f04f30-f178-4e61-9d6c-b3cc02c303b8.png">
+
 ----
 Reference:
 - For a detailed explanation of the preprocessing steps used in this project (https://medium.com/@jaelin_75015/faded-torn-rotated-receipt-ocr-with-image-preprocessing-1fb03c036504)
