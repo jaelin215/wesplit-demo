@@ -6,18 +6,20 @@
 
 ## How to create a flowchart
 
-1. How to install (MacOS)
-   brew install graphviz
-   pip3 install code2flow
+1. Install(MacOS)
 
-2. How to run (1 python file)
-   code2flow run.py
+   - brew install graphviz
+   - pip3 install code2flow
 
-3. How to run (2 python files)
-   code2flow run.py functions.py
+2. Run
 
-4. How to use code2flow as library
-   import code2flow
-   code2flow.code2flow(['path/to/filea', 'path/to/fileb'], 'path/to/outputfile')
+   - code2flow run.py (--> To run 1 python file)
+   - code2flow run.py functions.py (--> To run 2 python files)
 
-code2flow --help
+3. Import as library
+
+   - import code2flow
+   - code2flow.code2flow(['path/to/filea', 'path/to/fileb'], 'path/to/outputfile')
+
+4. Help
+   - code2flow --help
