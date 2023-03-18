@@ -42,7 +42,7 @@ Torn Receipt:
 
 <img width="850" alt="Screenshot 2023-03-18 at 6 54 17 PM" src="https://user-images.githubusercontent.com/12604611/226144251-d15c7365-3f1b-446e-a62b-280346fc3872.png">
 
-## Preprocessing Flowchart
+## Preprocessing Components
 <img width="366" alt="Screenshot 2023-03-18 at 6 59 03 PM" src="https://user-images.githubusercontent.com/12604611/226144425-a8c9be8c-3c2f-4bbc-aac1-40cfa913e5ec.png">
 
 
