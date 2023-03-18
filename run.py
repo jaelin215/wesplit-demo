@@ -51,4 +51,4 @@ with open(txt_path, 'w') as f:
     f.close()
 
 # Save flowchart
-code2flow.code2flow(['path/to/filea', 'path/to/fileb'], 'path/to/outputfile')
+code2flow.code2flow(['run.py', 'functions.py'], 'flowchart/out.png')
