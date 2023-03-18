@@ -6,7 +6,7 @@
 
 ## How to create a flowchart
 
-1. Install(MacOS)
+1. Install (For MacOS)
 
    - brew install graphviz
    - pip3 install code2flow

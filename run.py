@@ -49,3 +49,6 @@ txt_path = 'output/enhanced.txt'
 with open(txt_path, 'w') as f:
     f.write(txt)
     f.close()
+
+# Save flowchart
+code2flow.code2flow(['path/to/filea', 'path/to/fileb'], 'path/to/outputfile')
