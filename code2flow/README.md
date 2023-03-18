@@ -1,8 +1,10 @@
-----
 Author: Jaelin Lee
 Date: Mar 18, 2023
 Description: How to install and run code2flow to create a flowchart of your Python file
-----
+
+---
+
+## How to create a flowchart
 
 1. How to install (MacOS)
    brew install graphviz

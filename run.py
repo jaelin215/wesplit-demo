@@ -44,7 +44,7 @@ plt.imsave(enhanced_path, enhanced_rgb)
 options_all = f"--psm 1 --oem 1"
 txt = pytesseract.image_to_string(enhanced_path, config=options_all)
 
-# Save txt
+# Save output txt
 txt_path = 'output/enhanced.txt'
 with open(txt_path, 'w') as f:
     f.write(txt)
