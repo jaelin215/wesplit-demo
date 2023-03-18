@@ -33,7 +33,7 @@ Faded Receipt:
 
 <img width="1334" alt="Screenshot 2023-03-18 at 6 48 51 PM" src="https://user-images.githubusercontent.com/12604611/226144208-a6bc4a13-9943-484c-87c2-e3cc6c49eb8e.png">
 
-Rotated / Crummbled Receipt:
+Rotated / Crumbled Receipt:
 
 <img width="1199" alt="Screenshot 2023-03-18 at 6 56 52 PM" src="https://user-images.githubusercontent.com/12604611/226144334-4e8518e8-584a-4f2a-878c-a86bd2a24321.png">
 
