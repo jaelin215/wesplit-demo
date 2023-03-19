@@ -51,5 +51,5 @@ Torn Receipt:
 
 ## License:
 - MIT License
-- I would appreciate if you quote my name and the link to this GiHub repo if you reference this code. Thanks!
+- I would appreciate if you quote my name and the link to this GitHub repo if you reference this code. Thanks!
 ----
