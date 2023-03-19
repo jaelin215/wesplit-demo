@@ -1,5 +1,6 @@
 #! /bin/bash 
 
+# For preprocessing
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade Pillow
 
@@ -17,3 +18,6 @@ pip3 install pytesseract
 
 brew install graphviz
 pip3 install code2flow
+
+# For Flask
+pip3 install Flask
