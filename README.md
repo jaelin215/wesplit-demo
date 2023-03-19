@@ -46,6 +46,7 @@ Torn Receipt:
 
 ## Reference:
 - For a detailed explanation of the preprocessing steps used in this project (https://medium.com/@jaelin_75015/faded-torn-rotated-receipt-ocr-with-image-preprocessing-1fb03c036504)
+- For a quick sample run of this project in Kaggle notebook (https://www.kaggle.com/code/jaelin215/faded-receipt-ocr?scriptVersionId=122607788)
 
 ## License:
 - MIT License
