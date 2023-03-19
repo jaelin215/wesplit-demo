@@ -44,11 +44,10 @@ Torn Receipt:
 ## Preprocessing Components
 <img width="366" alt="Screenshot 2023-03-18 at 6 59 03 PM" src="https://user-images.githubusercontent.com/12604611/226144425-a8c9be8c-3c2f-4bbc-aac1-40cfa913e5ec.png">
 
-
-----
 ## Reference:
 - For a detailed explanation of the preprocessing steps used in this project (https://medium.com/@jaelin_75015/faded-torn-rotated-receipt-ocr-with-image-preprocessing-1fb03c036504)
 
 ## License:
 - MIT License
 - I would appreciate if you quote my name and the address of this repo if you reference this code. Thanks!
+----
