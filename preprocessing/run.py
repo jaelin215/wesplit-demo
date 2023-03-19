@@ -7,6 +7,7 @@ from functions import orient_vertical, sharpen_edge, binarize, find_receipt_boun
 import code2flow
 import pytesseract
 
+
 # Read raw image
 raw_path = 'raw/faded2.JPG'
 raw_img = cv2.imread(raw_path)
@@ -51,4 +52,5 @@ with open(txt_path, 'w') as f:
     f.close()
 
 # Generate and save flowchart
-code2flow.code2flow(['run.py', 'functions.py'], 'flowchart/out.png')
+code2flow.code2flow(
+    ['run.py', 'functions.py'], 'flowchart/out.png')

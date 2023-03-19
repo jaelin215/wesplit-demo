@@ -21,3 +21,8 @@ pip3 install code2flow
 
 # For Flask
 pip3 install Flask
+pip3 install healthcheck
+pip3 install plotly-express
+pip3 install requests
+
+

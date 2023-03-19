@@ -1,0 +1,36 @@
+digraph G {
+concentrate=true;
+splines="ortho";
+rankdir="LR";
+node_42c8627c [label="60: adjust_tilt()" name="functions::adjust_tilt" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_bbd4465f [label="28: binarize()" name="functions::binarize" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_0f0cea90 [label="72: crop()" name="functions::crop" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_0782dc01 [label="94: enhance_txt()" name="functions::enhance_txt" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_cde931a6 [label="36: find_receipt_bounding_box()" name="functions::find_receipt_bounding_box" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_df535ee9 [label="48: find_tilt_angle()" name="functions::find_tilt_angle" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_b8f3a2db [label="8: orient_vertical()" name="functions::orient_vertical" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_73716b08 [label="19: sharpen_edge()" name="functions::sharpen_edge" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_3cdc1c6e [label="0: (global)()" name="run::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_3cdc1c6e -> node_42c8627c [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_bbd4465f [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_0f0cea90 [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_0782dc01 [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_cde931a6 [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_df535ee9 [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_b8f3a2db [color="#D55E00" penwidth="2"];
+node_3cdc1c6e -> node_73716b08 [color="#D55E00" penwidth="2"];
+subgraph cluster_e404b515 {
+    node_b8f3a2db node_73716b08 node_bbd4465f node_cde931a6 node_df535ee9 node_42c8627c node_0f0cea90 node_0782dc01;
+    label="File: functions";
+    name="functions";
+    style="filled";
+    graph[style=dotted];
+};
+subgraph cluster_9fa557a2 {
+    node_3cdc1c6e;
+    label="File: run";
+    name="run";
+    style="filled";
+    graph[style=dotted];
+};
+}
