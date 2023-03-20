@@ -22,7 +22,7 @@ This code also includes flask app deployment.
 - python3 app.py
 - Go to localhost(http://127.0.0.1:8080) in web browser
 
-## Upload 
+## Input 
 - Upload a scanned receipt (i.e. .JPG, .PNG) 
 
 <img width="587" alt="Screenshot 2023-03-19 at 10 01 11 PM" src="https://user-images.githubusercontent.com/12604611/226229664-8c74d8b0-b794-40e0-8289-c53e9232e1c9.png">
