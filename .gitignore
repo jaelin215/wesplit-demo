@@ -152,6 +152,7 @@ wandb/
 output/
 static/enhanced/
 static/raw/
+static/enhanced/enhanced.txt
 
 # Graphics takes up lots of space
 raw/
