@@ -150,6 +150,8 @@ wandb/
 
 # Model output
 output/
+static/enhanced/
+static/raw/
 
 # Graphics takes up lots of space
 raw/
