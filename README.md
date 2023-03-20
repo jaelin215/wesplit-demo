@@ -32,10 +32,10 @@ This code also includes flask app deployment.
 <img width="948" alt="Screenshot 2023-03-19 at 10 04 12 PM" src="https://user-images.githubusercontent.com/12604611/226229961-1e26d457-c49d-4461-89a9-ba4877eb1a0f.png">
 
 ## Limitations
-- Not suitable for white background 
-- Optimal results with dark background, faded receipts.
-- For non-faded receipts, the raw image may give you a better results.
-- Compare both. And, use whichever gives you the better result.
+- Not suitable for scanned receipts with white background. Receipt edge detection requires contrast between the receipt and the background for cropping.
+- Optimal results with faded receipts with dark background.
+- For non-faded receipts, raw image OCR may results in a better outcome.
+- Compare Raw vs Enhanced and use whichever gives you the best result.
 
 <img width="347" alt="rules2" src="https://user-images.githubusercontent.com/12604611/226230270-9235e436-5c1f-4bf0-bf45-6b45fa0e3bfe.png">
 
