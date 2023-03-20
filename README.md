@@ -37,7 +37,8 @@ This code also includes flask app deployment.
 - For non-faded receipts, raw image OCR may results in a better outcome.
 - Compare Raw vs Enhanced and use whichever gives you the best result.
 
-<img width="347" alt="rules2" src="https://user-images.githubusercontent.com/12604611/226230270-9235e436-5c1f-4bf0-bf45-6b45fa0e3bfe.png">
+<img width="504" alt="rules3" src="https://user-images.githubusercontent.com/12604611/226231026-09501259-e196-4c1b-a3d2-e542c5d6a03a.png">
+
 
 Enjoy! 
 
