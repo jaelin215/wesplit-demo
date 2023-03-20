@@ -27,8 +27,7 @@ This code also includes flask app deployment.
 - python3 app.py
 
 ## Output
-<img width="840" alt="Screenshot 2023-03-19 at 10 02 44 PM" src="https://user-images.githubusercontent.com/12604611/226229820-f995eb82-14f5-4771-bad8-f159f2612a3c.png">
-
+<img width="948" alt="Screenshot 2023-03-19 at 10 04 12 PM" src="https://user-images.githubusercontent.com/12604611/226229961-1e26d457-c49d-4461-89a9-ba4877eb1a0f.png">
 
 Enjoy! 
 
