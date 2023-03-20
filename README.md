@@ -18,16 +18,26 @@ This code also includes flask app deployment.
 - chmod +x install_packages.sh
 - sh install_packages.sh
 
-## Input
+## Run
+- python3 app.py
+- Go to localhost(http://127.0.0.1:8080) in web browser
+
+## Upload 
 - Upload a scanned receipt (i.e. .JPG, .PNG) 
 
 <img width="587" alt="Screenshot 2023-03-19 at 10 01 11 PM" src="https://user-images.githubusercontent.com/12604611/226229664-8c74d8b0-b794-40e0-8289-c53e9232e1c9.png">
 
-## Run
-- python3 app.py
-
 ## Output
+- See comparison between raw vs enhanced OCR results
 <img width="948" alt="Screenshot 2023-03-19 at 10 04 12 PM" src="https://user-images.githubusercontent.com/12604611/226229961-1e26d457-c49d-4461-89a9-ba4877eb1a0f.png">
+
+## Limitations
+- Not suitable for white background 
+- Optimal results with dark background, faded receipts.
+- For non-faded receipts, the raw image may give you a better results.
+- Compare both. And, use whichever gives you the better result.
+
+<img width="347" alt="rules2" src="https://user-images.githubusercontent.com/12604611/226230270-9235e436-5c1f-4bf0-bf45-6b45fa0e3bfe.png">
 
 Enjoy! 
 
