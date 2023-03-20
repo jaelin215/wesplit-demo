@@ -1,0 +1,23 @@
+{% extends "base_template.html" %}
+{% block title %}
+
+Upload Receipt
+
+{% endblock %}
+{% block content %}
+
+<br>
+<br>
+<div class="centered mb-3 flex">
+    <form class="d-flex flex-row align-items-center" action="/upload_receipt" method="POST" enctype="multipart/form-data">
+        <label for="formFileSingle" class="form-label"></label>
+        <input class="form-control background_color" style="min-width:350px" type="file" id="formFileSingle" name="file" accept=".jpg,.JPG,.jpeg,.JPEG,.png,.PNG" required>
+        <button type="submit" class="btn btn-primary ms-auto">Submit</button>
+    </form>
+</div>
+<div>
+    <br>
+</div>
+
+
+{% endblock %}

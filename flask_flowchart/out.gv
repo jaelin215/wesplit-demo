@@ -1,0 +1,51 @@
+digraph G {
+concentrate=true;
+splines="ortho";
+rankdir="LR";
+node_be19ec44 [label="51: raw_ocr()" name="app::raw_ocr" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_edc007e9 [label="58: save_enhanced_txt()" name="app::save_enhanced_txt" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_d66c2be0 [label="36: save_raw_img_txt()" name="app::save_raw_img_txt" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_4b86ac6c [label="73: upload_receipt()" name="app::upload_receipt" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_2ad2a695 [label="60: adjust_tilt()" name="functions::adjust_tilt" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_5a735863 [label="28: binarize()" name="functions::binarize" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_ad210f36 [label="72: crop()" name="functions::crop" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_0d3759dd [label="94: enhance_txt()" name="functions::enhance_txt" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_091d6fb3 [label="36: find_receipt_bounding_box()" name="functions::find_receipt_bounding_box" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_7bc3038e [label="48: find_tilt_angle()" name="functions::find_tilt_angle" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_3fd64c9e [label="8: orient_vertical()" name="functions::orient_vertical" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_f45d0f7a [label="19: sharpen_edge()" name="functions::sharpen_edge" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_545ea370 [label="13: enhanced_ocr()" name="run::enhanced_ocr" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_4b86ac6c -> node_be19ec44 [color="#F0E442" penwidth="2"];
+node_4b86ac6c -> node_edc007e9 [color="#F0E442" penwidth="2"];
+node_4b86ac6c -> node_d66c2be0 [color="#F0E442" penwidth="2"];
+node_4b86ac6c -> node_545ea370 [color="#F0E442" penwidth="2"];
+node_545ea370 -> node_2ad2a695 [color="#000000" penwidth="2"];
+node_545ea370 -> node_5a735863 [color="#000000" penwidth="2"];
+node_545ea370 -> node_ad210f36 [color="#000000" penwidth="2"];
+node_545ea370 -> node_0d3759dd [color="#000000" penwidth="2"];
+node_545ea370 -> node_091d6fb3 [color="#000000" penwidth="2"];
+node_545ea370 -> node_7bc3038e [color="#000000" penwidth="2"];
+node_545ea370 -> node_3fd64c9e [color="#000000" penwidth="2"];
+node_545ea370 -> node_f45d0f7a [color="#000000" penwidth="2"];
+subgraph cluster_c779b229 {
+    node_d66c2be0 node_be19ec44 node_edc007e9 node_4b86ac6c;
+    label="File: app";
+    name="app";
+    style="filled";
+    graph[style=dotted];
+};
+subgraph cluster_3b5d1184 {
+    node_3fd64c9e node_f45d0f7a node_5a735863 node_091d6fb3 node_7bc3038e node_2ad2a695 node_ad210f36 node_0d3759dd;
+    label="File: functions";
+    name="functions";
+    style="filled";
+    graph[style=dotted];
+};
+subgraph cluster_f2e55049 {
+    node_545ea370;
+    label="File: run";
+    name="run";
+    style="filled";
+    graph[style=dotted];
+};
+}

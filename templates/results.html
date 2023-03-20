@@ -1,0 +1,79 @@
+{% extends "base_template.html" %}
+{% block title %}
+Results
+{% endblock %}
+{% block content %}
+
+<style>
+    .container {
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+    <div class="centered main">
+        <br>
+        <p>Uploaded file: {{ filename }}</p>
+    </div>
+    <div class="container">
+        <table class="pure-table pure-table-bordered">
+            <thead>
+                <tr>
+                    <th> Raw </th>
+                    <th> Enhanced </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <!-- <div style="display: inline-flex;"> -->
+                        <div>
+                            {% if raw_path != '' %}
+                                <img src="{{ raw_path }}" alt="raw_receipt" style="width: auto; height: 1000px; margin-right: 10px;">
+                            {% endif %}
+                        </div>
+                    </td>
+                    <td>
+                        <!-- <div style="display: inline-flex;"> -->
+                        <div>
+                            {% if enhanced_path != '' %}
+                                <img src="{{ enhanced_path }}" alt="enhanced_receipt" style="width: auto; height: 1000px; margin-right: 10px;">
+                            {% endif %}
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <br>
+
+    <div class="container">
+
+        <table class="pure-table pure-table-bordered">
+        <thead>
+            <tr>
+                <th> Raw </th>
+                <th> Enhanced </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <pre style="display: inline-flex;">
+                        {{ raw_txt }}
+                    </pre>
+                </td>
+                <td>
+                    <pre style="display: inline-flex;">
+                        {{ enhanced_txt }}
+                    </pre>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </div>  
+</body>
+
+{% endblock %}
